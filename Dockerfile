@@ -1,7 +1,7 @@
 FROM sumdoc/exper2
 
 RUN apt-get update \
-    apt-get install -y python3-pip && pip3 install jupyter notebook \
+    && apt-get install -y python3-pip && pip3 install jupyter notebook \
     && zef install Jupyter::Kernel
 EXPOSE 8888
 
