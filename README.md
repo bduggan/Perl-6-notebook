@@ -8,3 +8,5 @@ Type `docker run -it -p 8888:8888 sumdoc/perl-6-notebook` in docker terminal and
 
 There you are running the notebook.
 
+For detailed instructions, [see here](https://sumdoc.wordpress.com/2017/09/06/how-to-run-perl-6-notebook/).
+
