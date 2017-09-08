@@ -1,4 +1,4 @@
-FROM sumdoc/exper2
+FROM sumdoc/perl-6
 
 RUN apt-get update \
     && apt-get install -y python3-pip \
