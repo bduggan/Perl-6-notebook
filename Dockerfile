@@ -1,4 +1,4 @@
-FROM sumdoc/perl6
+FROM sumdoc/perl-6
 
 RUN apt-get update \
     && apt-get install -y build-essential \
