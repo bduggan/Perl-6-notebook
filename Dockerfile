@@ -3,7 +3,7 @@ FROM rakudo-star
 RUN apt-get update \
     && apt-get install -y build-essential \
     git libzmq3-dev ca-certificates python3-pip \
-    && rm -rf /var/lib/apt/lists/* && pip3 install jupyter notebook --no-cache-dir \
+    && rm -rf /var/lib/apt/lists/* && pip3 install jupyter notebook \#--no-cache-dir \
     && zef -v install https://github.com/bduggan/p6-jupyter-kernel.git
 
 ENV TINI_VERSION v0.6.0
