@@ -8,10 +8,11 @@ Using [Binder](https://mybinder.org/)
 
 Just lauch this and dive into your Perl 6 notebook.
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sumandoc/Perl-6-notebook/master)
+For more details using Binder [see here](https://sumdoc.wordpress.com/2018/01/04/using-perl-6-notebooks-in-binder/).
 
-# How to run the image:
+# How to run this image in your local computer:
 
-Type `docker run -it -p 8888:8888 sumdoc/perl-6-notebook` in docker terminal and access it in your browser with
+Type `docker run -it -p 8888:8888 sumdoc/perl-6-notebook` in the docker terminal and access it in your browser with
 `docker_ip_address:8888`.
 
 There you are running the notebook.
