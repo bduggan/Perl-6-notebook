@@ -1,5 +1,17 @@
 FROM sumdoc/perl-6
 
+
+#Enabling Binder..................................
+ENV NB_USER suman
+ENV NB_UID 1000
+ENV HOME /home/${NB_USER}
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+    
+#..............................................
+
 RUN apt-get update \
     && apt-get install -y build-essential \
     git wget libzmq3-dev ca-certificates python3-pip \
@@ -12,8 +24,16 @@ ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/
 RUN chmod +x /usr/bin/tini 
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
-EXPOSE 8888
+
+#For enabling binder again........................
+COPY . ${HOME}
 
 USER root
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
+WORKDIR ${HOME}
+#..............................................
+
+EXPOSE 8888
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
