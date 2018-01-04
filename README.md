@@ -7,7 +7,7 @@ This is dockerfile for running a docker container  with Perl 6 kernel in jupyter
 Using [Binder](https://mybinder.org/)
 
 Just lauch this and dive into your Perl 6 notebook.
-https://mybinder.org/v2/gh/sumandoc/Perl-6-notebook/master
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sumandoc/Perl-6-notebook/master)
 
 # How to run the image:
 
