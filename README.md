@@ -8,7 +8,7 @@ Using [Binder](https://mybinder.org/)
 
 + Click here: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sumandoc/Perl-6-notebook/master)
 + Wait a few seconds.
-+ Select New -> "Perl 6"
++ Select `New` -> `Perl 6`
 
 And dive into the Perl 6 notebook.
 
