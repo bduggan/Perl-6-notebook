@@ -25,7 +25,7 @@ RUN chmod +x /usr/bin/tini
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
 
-#For enabling binder again........................
+#For enabling binder..........................
 COPY . ${HOME}
 
 USER root
