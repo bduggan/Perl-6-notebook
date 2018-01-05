@@ -2,9 +2,8 @@
 This is dockerfile for running a docker container  with Perl 6 kernel in jupyter notebook.
 
 
-# Quick start
+# How to run using [Binder](https://mybinder.org/) ?
 
-Using [Binder](https://mybinder.org/)
 
 + Click here: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sumandoc/Perl-6-notebook/master)
 + Wait a few seconds.
@@ -14,7 +13,7 @@ And dive into the Perl 6 notebook.
 
 For more details using Binder [see here](https://sumdoc.wordpress.com/2018/01/04/using-perl-6-notebooks-in-binder/).
 
-# How to run this image in your local computer:
+# How to run this image in your local computer ?
 
 Type `docker run -it -p 8888:8888 sumdoc/perl-6-notebook` in the docker terminal and access it in your browser with
 `docker_ip_address:8888`.
