@@ -16,7 +16,7 @@ RUN apt-get update \
     && apt-get install -y build-essential \
     git wget libzmq3-dev ca-certificates python3-pip \
     && rm -rf /var/lib/apt/lists/* && pip3 install jupyter notebook --no-cache-dir \
-    && zef -v install https://github.com/bduggan/p6-jupyter-kernel.git --force-test \
+RUN zef -v install https://github.com/bduggan/p6-jupyter-kernel.git --force-test \
     && jupyter-kernel.p6 --generate-config
 
 ENV TINI_VERSION v0.16.1
