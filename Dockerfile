@@ -1,4 +1,5 @@
-FROM sumdoc/perl-6
+#FROM sumdoc/perl-6
+FROM rakudo-star
 
 
 #Enabling Binder..................................
