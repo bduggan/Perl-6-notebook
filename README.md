@@ -1,4 +1,8 @@
 # Perl-6-notebook
+
+[![Build Status](https://travis-ci.org/sumandoc/Perl-6-notebook.svg?branch=master)](https://travis-ci.org/sumandoc/Perl-6-notebook)
+
+
 This is dockerfile for running a docker container  with Perl 6 kernel in jupyter notebook.
 
 
