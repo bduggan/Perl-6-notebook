@@ -1,7 +1,10 @@
 # Perl-6-notebook
 
 [![Build Status](https://travis-ci.org/sumandoc/Perl-6-notebook.svg?branch=master)](https://travis-ci.org/sumandoc/Perl-6-notebook)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[![Perl 6](https://img.shields.io/badge/Perl%206%3E%3D-2017.12-blue.svg)](https://github.com/rakudo/rakudo)
 
 This is dockerfile for running a docker container  with Perl 6 kernel in jupyter notebook.
 
