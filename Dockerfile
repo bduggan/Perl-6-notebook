@@ -1,6 +1,8 @@
 FROM sumdoc/perl-6
 #FROM rakudo-star
 
+LABEL updated_at '2018-01-26'
+
 
 #Enabling Binder..................................
 ENV NB_USER suman
