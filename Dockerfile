@@ -1,4 +1,4 @@
-FROM sumdoc/test
+FROM sumdoc/rakudo-star
 #FROM sumdoc/perl-6
 #FROM rakudo-star
 
