@@ -1,6 +1,6 @@
-FROM sumdoc/rakudo-star
+#FROM sumdoc/rakudo-star
 #FROM sumdoc/perl-6
-#FROM rakudo-star
+FROM rakudo-star
 
 LABEL updated_at '2018-02-01'
 
