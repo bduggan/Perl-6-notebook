@@ -2,7 +2,7 @@ FROM sumdoc/rakudo-star
 #FROM sumdoc/perl-6
 #FROM rakudo-star
 
-LABEL updated_at '2018-02-01'
+LABEL updated_at '2018-02-03'
 
 
 #Enabling Binder..................................
