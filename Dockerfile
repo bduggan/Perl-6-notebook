@@ -2,17 +2,16 @@ FROM sumdoc/rakudo-star
 #FROM sumdoc/perl-6
 #FROM rakudo-star
 
-ARG BUILD_DATE
-ARG VCS_REF
+ARG BUILD_DATE="2018-02-22"
+
+ARG VCS_REF="git rev-parse --short HEAD"
 
 LABEL org.label-schema.license="MIT" \
+      org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/sumandoc/Perl-6-notebook" \
       org.label-schema.build-date=$BUILD_DATE \
-      org.label-schema.vcs-ref=$VCS_REF \
       maintainer="Dr Suman Khanal <suman81765@gmail.com>"
       
-
-LABEL updated_at '2018-02-22'
 
 
 #Enabling Binder..................................
