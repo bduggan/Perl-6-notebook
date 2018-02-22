@@ -6,7 +6,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 
 LABEL org.label-schema.license="MIT" \
-      org.label-schema.vcs-url="https://github.com/sumandoc/TeXLive-2017" \
+      org.label-schema.vcs-url="https://github.com/sumandoc/Perl-6-notebook" \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-ref=$VCS_REF \
       maintainer="Dr Suman Khanal <suman81765@gmail.com>"
