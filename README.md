@@ -4,6 +4,7 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Perl 6](https://img.shields.io/badge/Perl%206-2018.01-blue.svg)](https://rakudo.perl6.org/downloads/star/)
+[![](https://images.microbadger.com/badges/image/sumdoc/perl-6-notebook.svg)](https://microbadger.com/images/sumdoc/perl-6-notebook "Get your own image badge on microbadger.com")
 
 
 This is dockerfile for running a docker container  with Perl 6 kernel in jupyter notebook.
