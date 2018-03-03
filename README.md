@@ -8,7 +8,7 @@
 [![Github Stars](https://img.shields.io/github/stars/sumandoc/Perl-6-notebook.svg?style=social&label=Github)](https://github.com/sumandoc/Perl-6-notebook)
 
 
-This is dockerfile for running a docker container  with Perl 6 kernel in jupyter notebook.
+This is dockerfile for running a docker container with Perl 6 kernel in jupyter notebook. Also contains [asciinema](https://asciinema.org/) to record and share your terminal sessions, the right way. Enjoy a lightweight, purely text-based approach to terminal recording.
 
 
 # How to run using [Binder](https://mybinder.org/) ?
