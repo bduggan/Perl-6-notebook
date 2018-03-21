@@ -1,12 +1,8 @@
 FROM sumdoc/rakudo-star
 
-ARG BUILD_DATE="2018-02-24"
+ARG BUILD_DATE
 
-ARG VCS_REF="git rev-parse --short HEAD"
-
-LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/sumandoc/Perl-6-notebook" \
-      org.label-schema.build-date=$BUILD_DATE \
+LABEL org.label-schema.build-date=$BUILD_DATE \
       maintainer="Dr Suman Khanal <suman81765@gmail.com>"
       
 
