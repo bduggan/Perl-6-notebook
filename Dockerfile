@@ -21,7 +21,7 @@ RUN adduser --disabled-password \
 RUN apt-get update \
     && apt-get install -y build-essential \
     git wget libzmq3-dev ca-certificates python3-pip python3-setuptools \
-    && rm -rf /var/lib/apt/lists/* && pip3 install jupyter notebook asciinema --no-cache-dir \
+    && rm -rf /var/lib/apt/lists/* && pip3 install jupyter notebook asciinema jupyterlab --no-cache-dir \
     #&& zef -v install https://github.com/bduggan/p6-jupyter-kernel.git --force-test \
     && zef install Jupyter::Kernel --force-test \
     && jupyter-kernel.p6 --generate-config
